@@ -10,7 +10,7 @@ import {
 import { Scatter } from "react-chartjs-2";
 
 ChartJS.register(LinearScale, PointElement, LineElement, Tooltip, Legend);
-const Graph = ({ val } = props) => {
+const GraphJS = ({ val } = props) => {
   const options = {
     scales: {
       y: {
@@ -35,4 +35,4 @@ const Graph = ({ val } = props) => {
   return <Scatter options={options} data={data} />;
 };
 
-export default Graph;
+export default GraphJS;

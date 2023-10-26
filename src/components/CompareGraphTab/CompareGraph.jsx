@@ -3,7 +3,7 @@ import "./CompareGraph.css";
 import graphComp from "../../assets/compare.png";
 import compicon from "../../assets/compicon.png";
 import StatsDatacontext from "../../context/StatsData/StatsDataContext";
-import Graph from "../Graph/graph";
+import GraphJS from "../Graph/GraphJS";
 const CompareGraph = () => {
   const stats = useContext(StatsDatacontext);
   return (
@@ -25,7 +25,7 @@ const CompareGraph = () => {
         </div>
       </div>
       <div className='graphRender'>
-        <Graph val={stats.StatsData.per} />
+        <GraphJS val={stats.StatsData.per} />
         {/* <img src={graphComp} alt='graph comp' className='graphcomp' /> */}
       </div>
     </div>
