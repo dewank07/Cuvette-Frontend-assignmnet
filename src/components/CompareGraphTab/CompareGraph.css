@@ -1,0 +1,30 @@
+.container-compare{
+    width: 40vw;
+    border: 1px solid #dddbdb;
+    border-radius: 0.5rem;
+    display: flex;
+    flex-direction: column;
+    padding: 2rem 2rem;
+    color:#222F3E;    
+    gap: 1rem;
+}
+.upper-wrapper{
+    display: flex;
+    justify-content: space-between;
+    gap: 8rem;
+}
+.compare-subhead{
+    font-size: .95rem;
+}
+.compare-heading{
+    font-size: 1.2rem;
+    font-weight: 900;
+}
+.graphRender{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.graphcomp{
+    width: 80%;
+}

@@ -1,0 +1,22 @@
+.wrapper-main{
+    display: flex;
+    padding: 2rem 3rem;
+    flex-direction: column;
+    gap: 1rem;
+}
+.inner-wrapper{
+    display: flex;
+    width: 77vw;
+    justify-content: space-between;
+    
+}
+.wrapper-left{
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+}
+.wrapper-right{
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+}

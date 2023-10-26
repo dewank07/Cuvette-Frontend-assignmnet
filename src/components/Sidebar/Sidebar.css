@@ -1,0 +1,31 @@
+.sidebar{
+    height: 120vh;
+    padding: 2rem;
+    display: flex;
+    width: 10vw;
+    border-right: 1px solid #dddbdb;
+    justify-content: center;
+}
+.wrapper{
+    padding-top: 1rem;
+    display: flex;
+    flex-direction: column;
+    gap: 3rem;
+}
+.sidebar .wrapper .item{
+    display: flex;
+    gap: 1rem;
+    align-items: center;
+    font-size: 1.2rem;
+    cursor: pointer;
+}
+.item.active{
+    background-color: #F7F8FA;
+    padding: 1rem;
+    border-radius: 1rem;
+    font-weight: 800;
+    color:#445EE2;
+}
+
+
+

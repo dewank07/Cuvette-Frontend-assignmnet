@@ -1,0 +1,38 @@
+.UpdateScore-wrapper{
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    gap: 2rem;
+    padding: 3rem;
+}
+.updateScore-heading{
+    display: flex;
+    justify-content: space-between;
+    color: black;
+}
+.UpdateScores-text{
+    font-size: 36px;
+    font-weight: 800;
+}
+.scoreLogo img{
+    width: 4rem;
+}
+.update-form{
+    color: black;
+    display: flex;
+    flex-direction: column;
+    gap: 3rem;
+}
+.upadte-item{
+    display: flex;
+    justify-content: space-between;
+}
+.update-label{
+    font-size: 1.3rem;
+}
+.input-update{
+    width: 15rem;
+    padding: .65rem;
+    border-radius: .25rem;
+    border: 2px solid #1427839f;
+}

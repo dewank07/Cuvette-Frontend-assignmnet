@@ -1,0 +1,25 @@
+.container-question{
+    width: 25vw;
+    border: 1px solid #dddbdb;
+    border-radius: 0.5rem;
+    display: flex;
+    flex-direction: column;
+    padding: 2rem 2rem;
+    color:#222F3E;    
+    justify-content: space-between;
+    align-items: center;
+    gap: 2rem;
+}
+.heading-question{
+display: flex;
+justify-content: space-between;
+font-size: 1.2rem;
+font-weight: 700;
+width: 100%;
+}
+.correct-answer{
+color: #438AF6;
+}
+.subheading-question{
+    font-size: .9rem;
+}

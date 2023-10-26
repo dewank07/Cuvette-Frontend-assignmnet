@@ -1,0 +1,28 @@
+.container-stats{
+    width: 40vw;
+    border: 1px solid #dddbdb;
+    border-radius: 0.5rem;
+    display: flex;
+    flex-direction: column;
+    padding: 2rem 2rem;
+    color:#222F3E;    
+    gap: 1rem;
+}
+.container-stats .text{
+    font-size: 1.5rem;
+}
+.wrapper-stats {
+    display: flex;
+    justify-content: space-between;
+}
+.wrapper-stats .item{
+    display: flex;
+    gap:1rem;
+}
+.data .numbers{
+    font-size: 1.5rem;
+    font-weight: 800;
+}
+.data .sub-text{
+    font-size: .8rem;
+}
