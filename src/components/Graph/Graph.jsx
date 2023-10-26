@@ -22,7 +22,7 @@ const Graph = ({ val } = props) => {
   const data = {
     datasets: [
       {
-        label: `${val}%`,
+        label: `${val}% Percentile`,
         data: [
           { x: 0, y: 100 },
           { x: val, y: val },
